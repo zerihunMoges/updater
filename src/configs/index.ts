@@ -12,6 +12,9 @@ export const configs = {
     process.env.CLUB6,
     process.env.CLUB7,
     process.env.CLUB8,
-    process.env.CLUB9
-  ]
+    process.env.CLUB9,
+    process.env.CLUB10,
+    process.env.CLUB11
+  ],
+  tokenIdx: 0
 }
