@@ -4,6 +4,6 @@ export async function schedule(
   param = undefined
 ) {
   await new Promise((r) => setTimeout(r, time))
-  if (param) await func(param)
-  else await func()
+  if (param) return await func(param)
+  else return await func()
 }
